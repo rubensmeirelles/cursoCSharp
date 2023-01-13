@@ -1,0 +1,14 @@
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.exe
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.deps.json
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.runtimeconfig.json
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.runtimeconfig.dev.json
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.dll
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\bin\Debug\netcoreapp3.0\Eleicao.pdb
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.AssemblyInfoInputs.cache
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.AssemblyInfo.cs
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.csproj.CoreCompileInputs.cache
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.dll
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.pdb
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.genruntimeconfig.cache
+C:\Users\rubens.meirelles\source\repos\Eleicao\Eleicao\obj\Debug\netcoreapp3.0\Eleicao.csproj.AssemblyReference.cache

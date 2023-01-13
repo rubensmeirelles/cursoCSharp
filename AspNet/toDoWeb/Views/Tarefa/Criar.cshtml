@@ -1,0 +1,39 @@
+@model toDoWeb.Models.Tarefa
+
+@{
+    ViewData["Title"] = "Criar nova tarefa";
+}
+
+<h1>Nova tarefa</h1>
+
+<hr>
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Criar">
+            <div class="form-group">
+                <label asp-for="Titulo" class="control-lable"></label>
+                <input asp-for="Titulo" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="Descricao" class="control-lable"></label>
+                <input asp-for="Descricao" class="form-control">
+            </div>
+             <div class="form-group mt-3">
+                <label asp-for="Data" class="control-lable"></label>
+                <input asp-for="Data" class="form-control">
+            </div>
+            <div class="form-group mt-3">
+                <label asp-for="Status" class="control-lable"></label>
+                <select asp-for="Status" class="form-control" asp-items="Html.GetEnumSelectList<EnumStatusTarefa>()">
+                    <option value="">Defina um status</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group mt-3">
+                <input type="submit" value="Criar" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary"> Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>

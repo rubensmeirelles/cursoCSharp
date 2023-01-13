@@ -1,0 +1,14 @@
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.exe
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.deps.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.runtimeconfig.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.runtimeconfig.dev.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.dll
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\bin\Debug\netcoreapp3.0\Lambda.pdb
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.csproj.AssemblyReference.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.AssemblyInfoInputs.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.AssemblyInfo.cs
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.csproj.CoreCompileInputs.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.dll
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.pdb
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Lambda\Lambda\Lambda\obj\Debug\netcoreapp3.0\Lambda.genruntimeconfig.cache

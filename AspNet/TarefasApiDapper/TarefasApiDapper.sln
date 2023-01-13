@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasApiDapper", "TarefasApiDapper\TarefasApiDapper.csproj", "{AACCDC6D-7FFE-4CAC-A60E-14935ABFB044}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AACCDC6D-7FFE-4CAC-A60E-14935ABFB044}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AACCDC6D-7FFE-4CAC-A60E-14935ABFB044}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AACCDC6D-7FFE-4CAC-A60E-14935ABFB044}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AACCDC6D-7FFE-4CAC-A60E-14935ABFB044}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DE867F41-FCB4-4BA1-9F94-1FFE62258CF5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,14 @@
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.exe
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.deps.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.runtimeconfig.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.runtimeconfig.dev.json
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.dll
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\bin\Debug\netcoreapp3.0\Course.pdb
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.GeneratedMSBuildEditorConfig.editorconfig
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.AssemblyInfoInputs.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.AssemblyInfo.cs
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.csproj.CoreCompileInputs.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.dll
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.pdb
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.genruntimeconfig.cache
+D:\Rubens\Projetos\Pessoais\CSharp\Arquivos\Course\ConsoleApp1\obj\Debug\netcoreapp3.0\Course.csproj.AssemblyReference.cache

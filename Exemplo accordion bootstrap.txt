@@ -1,0 +1,155 @@
+@model IEnumerable<SistemasPostal.Models.Sistema>
+
+@{
+    ViewData["Title"] = "Sistemas cadastrados";
+}
+
+<div class="container">
+    <h3>@ViewData["Title"]</h3>
+
+    <p class="text-muted"><i class="bi bi-list-ul"></i> Listagem de sistemas mantidos pela Postal Saúde</p>
+    <hr />
+
+    <p><a asp-action="Cadastrar" class="btn btn-outline-primary">Cadastrar Novo Sistema</a></p>
+    
+
+    <div class="row">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Nome do Sistema</th>
+                    <th>Gerência/Coordenação</th>
+                    <th>Url Producao</th>
+                    <th>Url Homologacao</th>
+                    <th>Ações</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if (Model != null)
+                {
+                    @foreach (var item in Model)
+                    {
+                      <tr>
+                            <td>@Html.DisplayFor(model => item.NomeDoSistema)</td>
+                            <td>@Html.DisplayFor(model => item.Gerencia)</td>
+                            <td><a href="@Html.DisplayFor(model => item.UrlProducao)" target="_blank">@Html.DisplayFor(model => item.UrlProducao)</a></td>
+                            <td><a href="@Html.DisplayFor(model => item.UrlHomologacao)" target="_blank">@Html.DisplayFor(model => item.UrlHomologacao)</a></td>
+                            <td>
+                                <div class="btn-group" role="group">
+                                    <a asp-action="Editar" asp-route-id="@item.Id" class="btn btn-primary me-2" data-bs-toggle="tooltip" data-bs-placement="top" title="Editar">
+                                        <i class="bi bi-pencil-square"></i>
+                                    </a>
+                                    <a asp-action="Visualizar" asp-route-id="@item.Id" class="btn btn-info me-2" data-bs-toggle="tooltip" data-bs-placement="bottom" title="Visualizar">
+                                        <i class="bi bi-eye"></i>
+                                    </a>
+                                    <a href="#" class="btn btn-danger btnDelete" data-value="@item.Id">
+                                        <i class="bi bi-trash"></i>
+                                    </a>
+                                </div>
+                            </td>
+                        </tr>
+
+                       @* <div class="col-md-12 col-lg-6 mb-3">
+                            <div class="accordion accordion-flush" id="accordionExample">
+                                <div class="accordion-item bg-light">
+                                    <h2 class="accordion-header" id="heading@(Html.DisplayFor(model => item.Id))">
+                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapse@(Html.DisplayFor(model => item.Id))" aria-expanded="true" aria-controls="collapse@(Html.DisplayFor(model => item.Id))">
+                                            <p>
+                                                <strong class="color-white">Nome do sistema: </strong>
+                                                <span class="text-decoration-underline color-white">@Html.DisplayFor(model => item.NomeDoSistema)</span>
+                                            </p>
+                                        </button>
+                                    </h2>
+                                    <div id="collapse@(Html.DisplayFor(model => item.Id))" class="accordion-collapse collapse" aria-labelledby="heading@(Html.DisplayFor(model => item.Id))" data-bs-parent="#accordionExample">
+                                        <div class="accordion-body">
+                                            <table class="table table-bordered">
+                                                <tr>
+                                                    <td class="td-color"><strong>Gerência</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.Gerencia)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Url Produção</strong></td>
+                                                    <td class="bg-white"><a href="@Html.DisplayFor(model => item.UrlProducao)" target="_blank">@Html.DisplayFor(model => item.UrlProducao)</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Url Homologação</strong></td>
+                                                    <td class="bg-white"><a href="@Html.DisplayFor(model => item.UrlHomologacao)" target="_blank">@Html.DisplayFor(model => item.UrlHomologacao)</a></td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Usuário</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.Usuario)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Senha</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.Senha)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Servidor de Produção</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.ServidorProducao)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Servidor de Homologação</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.ServidorHomologacao)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Documentação</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.Documentacao)</td>
+                                                </tr>
+                                                <tr>
+                                                    <td class="td-color"><strong>Descrição</strong></td>
+                                                    <td class="bg-white">@Html.DisplayFor(model => item.Descricao)</td>
+                                                </tr>
+                                            </table>
+                                            <div>
+                                                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                                                    <a asp-action="Editar" asp-route-id="@item.Id">
+                                                        <button type="button" class="btn btn-outline-primary"><i class="bi bi-pencil-square"></i> Editar</button>
+                                                    </a>
+                                                    <a asp-action="Deletar" asp-route-id="@item.Id">
+                                                        <button type="button" class="btn btn-outline-danger"><i class="bi bi-trash"></i> Excluir</button>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>                            
+                        </div>*@
+                    }
+                }
+            </tbody>
+        </table>
+     </div>       
+</div>
+
+<!-- Button trigger modal -->
+
+<!-- Modal -->
+<div class="modal fade" id="ExcluirModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Exclusão de registro</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div id="conteudoModal"></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section scripts{
+    <script type="text/javascript">
+        
+        $(document).ready(function(){
+            $('.btnDelete').click(function(){
+                var id = $(this).data("value");
+
+                $("#conteudoModal").load("/Sistema/Excluir/"+id, function(){
+                    $('#ExcluirModal').modal("show")
+                });
+            });
+        });
+    </script>
+}

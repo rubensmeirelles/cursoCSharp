@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TarefasApi", "TarefasApi\TarefasApi.csproj", "{3A69F26D-AA57-4BAE-B94F-6C67FC190184}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A69F26D-AA57-4BAE-B94F-6C67FC190184}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A69F26D-AA57-4BAE-B94F-6C67FC190184}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A69F26D-AA57-4BAE-B94F-6C67FC190184}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A69F26D-AA57-4BAE-B94F-6C67FC190184}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {560FB3D9-E660-4124-83AE-D5899EE0774C}
+	EndGlobalSection
+EndGlobal

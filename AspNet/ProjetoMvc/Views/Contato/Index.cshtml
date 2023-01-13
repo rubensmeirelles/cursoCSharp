@@ -1,0 +1,44 @@
+@model IEnumerable<ProjetoMvc.Models.Contato>
+
+@{
+    ViewData["Title"] = "Listagem de contatos";
+}
+<div class="container">
+    <h2>Contatos</h2>
+
+    <p><a asp-action="Criar">Novo Contato</a></p>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Id)</th>
+                <th>@Html.DisplayNameFor(model => model.Nome)</th>
+                <th>@Html.DisplayNameFor(model => model.Telefone)</th>
+                <th>@Html.DisplayNameFor(model => model.Ativo)</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>@Html.DisplayFor(model => item.Id)</td>
+                        <td>@Html.DisplayFor(model => item.Nome)</td>
+                        <td>@Html.DisplayFor(model => item.Telefone)</td>
+                        <td>@Html.DisplayFor(model => item.Ativo)</td>
+                        <td>
+                            <a asp-action="Editar" asp-route-id="@item.Id">
+                                <button type="button" class="btn btn-outline-primary">Editar</button>
+                            </a>
+                            <a asp-action="Detalhes" asp-route-id="@item.Id">
+                                <button type="button" class="btn btn-outline-secondary">Detalhes</button>
+                            </a>
+                            <a asp-action="Deletar" asp-route-id="@item.Id">
+                                <button type="button" class="btn btn-outline-danger">Excluir</button>
+                            </a>
+                        </td>
+                    </tr>
+                }
+        </tbody>
+    </table>
+</div>
