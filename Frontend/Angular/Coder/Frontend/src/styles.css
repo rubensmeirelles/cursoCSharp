@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.red{
+    color: rgb(227,94,107)
+}
+
+.v-middle{
+    vertical-align: middle
+}
+
+/* .mat-mdc-snack-bar-container .mdc-snackbar__label .msg-success, .mat-mdc-button .mat-mdc-button-touch-target .msg-success, .mat-mdc-button .mdc-button__label .msg-success{
+    background-color: #28a745;
+    color: #fff;
+} */
+
+.msg-success.mat-mdc-snack-bar-container .mdc-snackbar__surface, .msg-success span.mdc-button__label{
+    background-color: #28a745 !important;
+    color: #fff
+}
+
+.msg-error.mat-mdc-snack-bar-container .mdc-snackbar__surface, .msg-error span.mdc-button__label{
+    background-color: rgb(227,94,107) !important;
+    color: #fff
+}
+
+

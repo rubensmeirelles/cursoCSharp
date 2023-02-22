@@ -1,0 +1,21 @@
+<mat-card>
+    <mat-card-title>Deletar produto</mat-card-title>
+    <h3 class="alert">Tem certeza que deseja excluir?</h3>
+    <form>
+        <mat-form-field>
+            <input matInput placeholder="Nome" [value]="product.name" name="name" disabled>
+        </mat-form-field>
+        <mat-form-field>
+            <input matInput placeholder="Preço R$" [value]="product.price" name="price" disabled>
+        </mat-form-field>
+    </form>
+    <div class="buttons">
+        <button mat-raised-button (click)="deleteProduct()" color="warn">
+            Confirmar
+        </button>
+        <button mat-raised-button (click)="cancel()" color="danger">
+            Cancelar
+        </button>
+    </div>   
+</mat-card>
+

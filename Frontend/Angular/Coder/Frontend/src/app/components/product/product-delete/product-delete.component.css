@@ -1,0 +1,19 @@
+.alert{
+    margin: 20px 0;
+    padding: 10px;
+    background-color: rgb(227,94,107);
+    color: #fff
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons{
+    display: flex;
+}
+
+button{
+    margin: 15px 10px 15px 0;
+}
